@@ -1,4 +1,8 @@
+body{
+    background-color: rgba(0, 0, 0, 0.87);
+}
 #fleximagebox{
+    /* margin-top: 40px; */
     display: flex;
     /* flex-direction: row; */
     justify-content: center;
@@ -10,12 +14,11 @@
     border: 2px solid red;
 }
 .imagesp{
+    margin-top: 70px;
     overflow: hidden;
-    border: 2px solid yellow;
-    width: 620px;
-    /* height: 762px; */
-    z-index: 10;
-    /* margin: 35px 0px; */
+    /* border: 2px solid yellow; */
+    width: 630px;
+    height: 600px;
     margin-bottom: 10px;
     background-color: black;
     /* width: 18%; */
@@ -36,23 +39,21 @@
 
 .text{
     border: 1px solid rgb(0, 0, 0);
-    position: absolute;
     margin-top: -400px;
     margin-left: 200px;
-    /* display: inline-block; */
-    /* float: left; */
+    width: 100%;
     color: rgb(255, 250, 235);
     word-spacing: 5px;
     letter-spacing: 3px;
-    /* visibility: none; */
     display: none;
     padding: 20px;
-    /* transition: .4s; */
     line-height: 30px;
+
 }
 
 .imagesp:hover .text{
     display: block;
-    /* transition: 2s; */
+    transition: .1s;
+    /* z-index: 20; */
 }
 
