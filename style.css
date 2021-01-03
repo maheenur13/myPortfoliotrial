@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* styling the navbar */
+nav{
+    /* border: 2px solid; */
+    width: 100%;
+    /* height: auto; */
+    background-color: rgba(0, 0, 0, 0.602);
+    position: fixed;
+    z-index: 100;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    /* height: auto; */
+    /* padding: 5px 20px; */
+    /* justify-content: space-around; */
+}
+
+nav ul li{
+    list-style: none;
+    /* padding: 10px 20px; */
+    /* overflow: hidden; */
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    /* height: 100%; */
+    margin: 0px 50px;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 3px;
+    /* position: absolute; */
+    /* overflow: hidden; */
+}
+
+
+/* second section design starts */
+#second_section{
+    /* margin-top: 50px; */
+    /* border: 2px solid yellow; */
+    overflow: hidden;
+}
+#second_section_all{
+    /* margin-top: 50px; */
+    /* border: 3px solid red; */
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#second_section_all::before{
+    content: '';
+    background: url(./images/cover.jpg) center center/cover;
+    width: 100%;
+    /* text-align: center; */
+
+    height: 100%;
+    /* z-index: 10; */
+}
+#second_section_all h1{
+    /* position: relative; */
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    /* padding: 12px 20px; */
+    width: 1000%;
+    text-align: center;
+    padding:20px;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: rgb(181, 235, 235);
+    letter-spacing: 8px;
+    word-spacing: 20px;
+    font-size: 3rem;
+    
+}
