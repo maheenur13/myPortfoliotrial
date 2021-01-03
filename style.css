@@ -47,6 +47,7 @@ nav ul li a{
     /* margin-top: 50px; */
     /* border: 2px solid yellow; */
     overflow: hidden;
+    margin-bottom: 50px;
 }
 #second_section_all{
     /* margin-top: 50px; */
@@ -61,9 +62,11 @@ nav ul li a{
     content: '';
     background: url(./images/cover.jpg) center center/cover fixed;
     width: 100%;
+    opacity: 0.8;
     /* text-align: center; */
     /* position: fixed; */
     height:100vh;
+    /* background-color: black; */
     /* z-index: 10; */
 }
 #second_section_all h1{
@@ -95,6 +98,7 @@ nav ul li a{
     width: 100%;
     background-color: rgba(22, 21, 21, 0.418);
     margin-top: 615px;
+    /* margin-bottom: 30px; */
 }
 .boxsection{
     border: 1px solid rgba(128, 125, 125, 0.342);
@@ -105,6 +109,7 @@ nav ul li a{
     overflow: hidden;
     width: 250px;
     height: 300px;
+    /* margin-top: 300px; */
 }
 .imagebox img{
     width: 100%;
