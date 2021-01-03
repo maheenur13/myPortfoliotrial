@@ -52,22 +52,24 @@ nav ul li a{
     /* margin-top: 50px; */
     /* border: 3px solid red; */
     display: flex;
-    height: 100vh;
+    flex-direction: column;
+    /* height: 100vh; */
     justify-content: center;
     align-items: center;
 }
 #second_section_all::before{
     content: '';
-    background: url(./images/cover.jpg) center center/cover;
+    background: url(./images/cover.jpg) center center/cover fixed;
     width: 100%;
     /* text-align: center; */
-
-    height: 100%;
+    /* position: fixed; */
+    height:100vh;
     /* z-index: 10; */
 }
 #second_section_all h1{
     /* position: relative; */
     position: absolute;
+    /* display: block; */
     border: 1px solid rgb(0, 0, 0);
     /* padding: 12px 20px; */
     width: 100%;
@@ -79,4 +81,33 @@ nav ul li a{
     word-spacing: 20px;
     font-size: 3rem;
     
+}
+
+
+#forflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /* position: absolute; */
+    border: 2px solid red;
+    position:absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.418);
+    margin-top: 550px;
+}
+.boxsection{
+    border: 2px solid yellow;
+    /* display: inline-block; */
+}
+
+.imagebox{
+    overflow: hidden;
+    width: 250px;
+    height: 300px;
+   
+}
+.imagebox img{
+    width: 100%;
+    height: 100%;
 }
