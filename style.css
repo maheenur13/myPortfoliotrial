@@ -15,7 +15,7 @@ nav{
     z-index: 100;
 }
 nav ul{
-    margin-left: 110px;
+    margin-left: 10px;
     /* margin:0px; */
     /* border: 2px solid red; */
     overflow: hidden;
@@ -60,6 +60,16 @@ nav ul li a:hover{
     transition: .4s;
     color: #fbfbfb;
 }
+/* styling logo */
+#logo a{
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-right:40px;
+    font-family: 'Redressed', cursive;
+    background-color: rgba(210, 180, 140, 0.363);
+}
+
+
 
 /* second section design starts */
 #second_section{
