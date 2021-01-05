@@ -10,7 +10,7 @@ nav{
     height: 60px;
     /* height: auto; */
     background-color: #08596d;
-    /* position: fixed; */
+    position: fixed;
     border-bottom: 1px solid black;
     z-index: 100;
 }
@@ -57,6 +57,7 @@ nav ul li a:hover{
 }
 
 
+
 /* styling the logo */
 #logo{
     margin-right: 100px;
@@ -84,7 +85,7 @@ nav ul li a:hover{
 }
 .second_section{
     background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.972),rgba(66, 66, 66, 0.719)), url("images/mypicture.jpg");
-    height: 900px;
+    height: 910px;
     background-size:100%;
     display: flex;
     /* position: relative; */
@@ -167,7 +168,6 @@ nav ul li a:hover{
     font-size: 22px;
     padding:20px 10px 0px 20px ;
     word-wrap: break-word;
-    /* white-space: pre-wrap; */
     color: rgb(188, 220, 228);
     /* height: 400px; */
     font-family:'Redressed', cursive ;
@@ -197,4 +197,33 @@ nav ul li a:hover{
     background-color: orange;
     transition: .5s;
     letter-spacing:2px ;
+}
+
+
+
+/* designing line breaking */
+.line-break{
+    padding: 5px 0px 5px 0px;
+    background-color: rgb(194, 189, 189);
+    display: flex;
+    justify-content: center;
+
+}
+.line-break p{
+
+    width: 85%;
+    border-radius: 10px;
+    border: 2px solid rgb(2, 2, 2);
+}
+/* styling third section */
+.third-section{
+    /* border: 2px solid yellow; */
+    height: 520px;
+    width: 100%;
+    background-image:linear-gradient(rgba(3, 3, 3, 0.87),rgba(99, 49, 49, 0.829)), url("images/camera.jpeg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    /* filter: blur(90%); */
 }
